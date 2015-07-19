@@ -1,0 +1,11 @@
+{
+    "name": "karpuzkan/trslug",
+    "authors": [
+        {
+            "name": "karpuzkan",
+            "email": "faiktofur@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
