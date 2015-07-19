@@ -1,14 +1,23 @@
 {
     "name": "karpuzkan/trslug",
+    "description": "",
+    "license": "MIT",
     "authors": [
         {
-            "name": "karpuzkan",
+            "name": "faik tofur",
             "email": "faiktofur@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.4.0"
     },
-    "minimum-stability": "dev",
-    "require": {}
+    "require-dev": {
+        "illuminate/support": ">=5.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Karpuzkan\\Trslug\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
